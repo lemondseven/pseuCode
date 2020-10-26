@@ -1,0 +1,9 @@
+STORE 'mass' with value = 600
+STORE 'acce' with value = 2
+
+STORE 'forc' without any value
+
+CALC 'mass' times 'acce'
+SET 'forc' with result of CALC
+
+DISPLAY 'forc'
