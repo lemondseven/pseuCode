@@ -1,0 +1,9 @@
+SET "rad" value to 7
+SET "phi" value to 3.14
+
+SET "area" value to 0
+
+CALC "phi" times "rad" times "rad"
+set "area" value to result of CALC
+
+display "area"
